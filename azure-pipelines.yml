@@ -18,7 +18,7 @@ steps:
     resourceGroupName: 'azurepipeline-rg'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/acdcaz/AzureRmPipeline-repo/main/CreateWebApp/AzureDeploy.json'
     overrideParameters: '-projectName AzureArmDeployment -linkedTemplateURI https://raw.githubusercontent.com/acdcaz/AzureRmPipeline-repo/main/CreateWebApp/LinkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'davesDeployment'
