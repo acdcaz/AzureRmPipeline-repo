@@ -19,6 +19,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/AzureDeploy.json'
-    overrideParameters: '-projectName laladavsjsjs -linkedTemplateURI https://raw.githubusercontent.com/acdcaz/AzureRmPipeline-repo/main/CreateWebApp/LinkedStorageAccount.json'
+    overrideParameters: '-projectName isisiddis -linkedTemplateURI https://raw.githubusercontent.com/acdcaz/AzureRmPipeline-repo/main/CreateWebApp/LinkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'davesDeployment'
