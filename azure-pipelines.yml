@@ -19,6 +19,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/AzureDeploy2.json'
-    overrideParameters: -webAppName minlwlw123 
+    overrideParameters: -webAppName pino1234gsgsg 
     deploymentMode: 'Incremental'
     deploymentName: 'davesDeployment'
